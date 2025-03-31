@@ -1,16 +1,24 @@
 # 2024春季数据结构 课程上机作业仓库
 
 ## 文件命名
-统一放置在`chapter_/_`目录，例如chapter3/1
+统一放置在`chapter_/_`目录，例如chapter6/1
 
 - 第六章 - 树和森林
 - 第七章 - 图
 - 第八章 - 查找
 - 第九章 - 排序
 
+# 题目描述
+请在`main.cpp`中以多行注释的形式在文件头部写明题目，例如
+```cpp
+/*
+    题目：基于图的深度优先搜索策略编写一算法，判别以邻接表方式存储的有向图中是否存在由顶点vi到顶点vj的路径（i!=j）
+*/
+```
+
 ## 目录结构
 ```
-D:\WORKSPACE\C++\SHU-CS-DS-2024W\CHAPTER3
+D:\WORKSPACE\C++\SHU-CS-DS-2024S\CHAPTER6
 │  CMakeLists.txt // 章节的 CMakeLists
 └─10
     │  CMakeLists.txt // 你自己的 CMakeLists
@@ -25,7 +33,7 @@ D:\WORKSPACE\C++\SHU-CS-DS-2024W\CHAPTER3
 统一采用 CMake 编译，需要在自己的目录下创建 `CMakeLists.txt` ,其中至少需要包含以下内容（可以只更改题号）
 ```cmake
 cmake_minimum_required(VERSION 3.10)
-project(3.10) # 章节.题目序号
+project(6.1) # 章节.题目序号
 file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_executable(${PROJECT_NAME} ${SOURCES})
