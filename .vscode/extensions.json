@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+      "llvm-vs-code-extensions.vscode-clangd",
+      "josetr.cmake-language-support-vscode",
+      "ms-vscode.cpptools-extension-pack"
+    ]
+  }
