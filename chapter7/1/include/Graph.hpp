@@ -2,15 +2,16 @@
 #include <vector>
 using namespace std;
 
-class Graph {
+class Graph
+{
 public:
-  Graph(int n);
-  ~Graph(){};
-  void addEdge(int i, int j);
-  void printPath(int i, int j);
+    Graph(int n);
+    ~Graph() = default;
+    void addEdge(int i, int j);
+    void printPath(int i, int j);
 
 private:
-  int n;
-  vector<vector<int> > adj;
-  bool dfs(int current, int target, vector<bool> &visited, vector<int> &path);
+    int n;
+    vector<vector<int>> adj;
+    bool dfs(int current, int target, vector<bool>& visited, vector<int>& path);
 };

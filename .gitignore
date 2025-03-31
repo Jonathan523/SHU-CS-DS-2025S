@@ -47,3 +47,6 @@ Testing
 
 # Clangd
 **/.cache
+
+# For Mac Users
+**/.DS_Store

@@ -6,13 +6,13 @@ class Graph
 {
 public:
     Graph(int n);
-    ~Graph(){};
+    ~Graph() = default;
     void addEdge(int i, int j);
     int findMaxDepth();
 
 private:
     int n;
-    vector<vector<int> > adj;
+    vector<vector<int>> adj;
     vector<bool> vis;
     void dfs(int current, int depth, int& max_depth);
 };

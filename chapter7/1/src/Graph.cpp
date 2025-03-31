@@ -21,7 +21,7 @@ bool Graph::dfs(int current, int target, vector<bool>& visited,
         return true;
     }
     for (auto& v : adj[current]) {
-         if (!visited[v]) {
+        if (!visited[v]) {
             if (dfs(v, target, visited, path)) {
                 return true;
             }
@@ -44,8 +44,7 @@ void Graph::printPath(int i, int j)
             }
         }
         cout << endl;
-    }
-    else{
+    } else {
         cout << "不存在从 " << i << " 到 " << j << " 的路径：" << endl;
     }
 }

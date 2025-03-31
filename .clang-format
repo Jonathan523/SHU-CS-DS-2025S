@@ -32,7 +32,6 @@ PointerAlignment: Left
 SpaceAfterCStyleCast: true
 SpacesBeforeTrailingComments: 2
 SpaceBeforeParens: ControlStatements
-SpaceInAngles: Always
 
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: false
