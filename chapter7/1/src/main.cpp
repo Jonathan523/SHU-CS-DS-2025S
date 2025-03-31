@@ -1,5 +1,10 @@
+/*
+    题目：基于图的深度优先搜索策略编写一算法，判别以邻接表方式存储的有向图中是否存在由顶点vi到顶点vj的路径（i!=j）
+*/
+
 #include "Graph.hpp"
 #include <iostream>
+
 using namespace std;
 
 int main()
