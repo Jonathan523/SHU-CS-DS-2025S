@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(7.3) # 章节.题目序号
+file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+add_executable(${PROJECT_NAME} ${SOURCES})
+set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
