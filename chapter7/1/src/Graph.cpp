@@ -36,15 +36,15 @@ void Graph::printPath(int i, int j)
     vector<bool> visited(n, false);
     vector<int> path;
     if (dfs(i, j, visited, path)) {
-        cout << "存在从 " << i << " 到 " << j << " 的路径：" << endl;
+        cout << "存在从 " << i << " 到 " << j << " 的路径：" << '\n';
         for (size_t idx = 0; idx < path.size(); idx++) {
             cout << path[idx];
             if (idx != path.size() - 1) {
                 cout << " -> ";
             }
         }
-        cout << endl;
+        cout << '\n';
     } else {
-        cout << "不存在从 " << i << " 到 " << j << " 的路径：" << endl;
+        cout << "不存在从 " << i << " 到 " << j << " 的路径：" << '\n';
     }
 }

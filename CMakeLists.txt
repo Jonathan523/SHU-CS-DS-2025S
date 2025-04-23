@@ -20,3 +20,4 @@ else()
 endif()
 
 add_subdirectory(chapter7)
+add_subdirectory(chapter8)

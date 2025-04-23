@@ -15,5 +15,5 @@ int main()
         cin >> u >> v;
         g.addEdge(u, v);
     }
-    cout << g.findMaxDepth() << endl;
+    cout << g.findMaxDepth() << '\n';
 }
