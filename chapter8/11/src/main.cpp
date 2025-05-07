@@ -25,7 +25,10 @@ int main()
     root->left->left = new BalancedBST::Node();
     root->left->right = new BalancedBST::Node();
     root->right->right = new BalancedBST::Node();
+    root->right->right->left = new BalancedBST::Node();
     root->left->left->left = new BalancedBST::Node();
+    root->right->left = new BalancedBST::Node();
+    
     root->left->left->right = new BalancedBST::Node();
     root->right->right->right = new BalancedBST::Node();
 
